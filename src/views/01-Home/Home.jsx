@@ -3,6 +3,6 @@ import "./Home.css";
 
 export const Home = () => {
     return (
-        <h1>hola</h1>
+        <img className="banner" src="../../public/young_lab.png"></img>
     )
 }
