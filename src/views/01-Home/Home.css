@@ -47,4 +47,19 @@
     width: 25.5em;
     padding: 1em;
 }
+.home-project-link {
+    display: flex;
+    cursor: pointer;
+}
+.hooman-pic-home {
+    width: 22em;
+}
 
+.home-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.group-home {
+    margin: 1em;
+}

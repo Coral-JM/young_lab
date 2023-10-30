@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { Col, Container, Row } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
+  const navigate = useNavigate();
   const [items, setItems] = useState([
     "WEB DESIGN",
     "BRAND IDENTITY",
@@ -31,7 +33,7 @@ export const Home = () => {
         </Col>
       </Row>
 
-      <div className="skills-animation-container">
+      {/* <div className="skills-animation-container">
         <div className="skills-animation">
           {items.map((text, index) => (
             <div className="animation-text" key={index}>
@@ -39,7 +41,28 @@ export const Home = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
+
+      <Row>
+        <Col className="home-projects">
+            <div className="group-home">
+              <div className="home-project-link" onClick={()=>navigate("/projects")}>A FRESH APP IN VLC → <em>hooman</em></div>
+              <img className="hooman-pic-home" src="../../public/hooman1.jpg" />
+              <div className="text">NO. ① - FULL STACK PROJECT, WEB & BRANDING</div>
+            </div>
+            <div className="group-home">
+              <div className="home-project-link" onClick={()=>navigate("/projects")}>   JEWELRY BRAND → <em>LA JARA</em></div>
+              <img className="hooman-pic-home" src="../../public/jara.jpg" />
+              <div className="text">NO. ② - BRAND, COPY, PHOTO & VIDEO, MKT DIG</ div>
+            </div>
+            <div className="group-home">
+              <div className="home-project-link" onClick={()=>navigate("/projects")}  >FIRST CODING IN → <em>( M I N T )</em></div>
+              <img className="hooman-pic-home" src="../../public/dental.jpg" />
+              <div className="text">NO. ① - FULL STACK PROJECT, WEB & BRANDING</  div>
+            </div>
+
+        </Col>
+      </Row>
     
 
 
