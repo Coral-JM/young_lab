@@ -3,7 +3,6 @@ import './Navbar.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export const Header = () => {
     return (
@@ -15,7 +14,7 @@ export const Header = () => {
             <Nav className="me-auto">
               <Nav.Link href="#home">HOME</Nav.Link>
               <Nav.Link href="#link">PROYECTOS</Nav.Link>
-              <Nav.Link href="#link">ABOUT</Nav.Link>
+              <Nav.Link href="#link">MUST</Nav.Link>
               <Nav.Link href="#link">TENEMOS QUE HABLAR</Nav.Link>
             </Nav>
           </Navbar.Collapse>

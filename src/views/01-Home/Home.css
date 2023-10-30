@@ -1,3 +1,10 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner {
     max-width: 100%;
     height: auto;
@@ -8,7 +15,7 @@
 }
 .skills-animation {
     display: flex;
-    animation: slide 110s linear infinite;
+    animation: slide 400s linear infinite;
 }
 .animation-text {
     display: flex;
@@ -28,5 +35,16 @@
     100% {
       transform: translateX(-100%);
     }
+}
+.home-about-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home-about {
+    font-size: 0.9em;
+    text-align: justify;
+    width: 25.5em;
+    padding: 1em;
 }
 
