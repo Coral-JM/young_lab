@@ -33,7 +33,7 @@ export const Home = () => {
         </Col>
       </Row>
 
-      {/* <div className="skills-animation-container">
+      <div className="skills-animation-container">
         <div className="skills-animation">
           {items.map((text, index) => (
             <div className="animation-text" key={index}>
@@ -41,7 +41,7 @@ export const Home = () => {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
 
       <Row>
         <Col className="home-projects">
