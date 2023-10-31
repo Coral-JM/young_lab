@@ -1,3 +1,3 @@
-# in construction⛏️
+### in construction⛏️
 
-<img src = "../public/imgHome.png">
+<img src="./public/imgHome.png">
