@@ -1,3 +1,3 @@
-### in construction⛏️
+### in progress⛏️
 
 <img src="./public/imgHome.png">
