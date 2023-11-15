@@ -13,6 +13,7 @@ export const Home = () => {
     "ART DIRECTION",
     "DEVELOPMENT",
     "LET'S TALK ABOUT CIBERSECURITY",
+    "YOUNG LAB"
   ]);
 
   useEffect(() => {
@@ -33,7 +34,7 @@ export const Home = () => {
         </Col>
       </Row>
 
-      <div className="skills-animation-container">
+      {/* <div className="skills-animation-container">
         <div className="skills-animation">
           {items.map((text, index) => (
             <div className="animation-text" key={index}>
@@ -41,26 +42,31 @@ export const Home = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <Row>
         <Col className="home-projects">
             <div className="group-home">
               <div className="home-project-link" onClick={()=>navigate("/projects")}>A FRESH APP IN VLC → <em>hooman</em></div>
-              <img className="hooman-pic-home" src="../../public/hooman1.jpg" />
+              <img className="pic-home" src="../../public/hooman1.jpg" />
               <div className="text">NO. ① - FULL STACK PROJECT, WEB & BRANDING</div>
             </div>
             <div className="group-home">
               <div className="home-project-link" onClick={()=>navigate("/projects")}>   JEWELRY BRAND → <em>LA JARA</em></div>
-              <img className="hooman-pic-home" src="../../public/jara.jpg" />
+              <img className="pic-home" src="../../public/jara.jpg" />
               <div className="text">NO. ② - BRAND, COPY, PHOTO & VIDEO, MKT DIG</ div>
             </div>
             <div className="group-home">
               <div className="home-project-link" onClick={()=>navigate("/projects")}  >FIRST CODING IN → <em>( M I N T )</em></div>
-              <img className="hooman-pic-home" src="../../public/dental.jpg" />
+              <img className="pic-home" src="../../public/dental.jpg" />
               <div className="text">NO. ① - FULL STACK PROJECT, WEB & BRANDING</  div>
             </div>
-
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+        <div className="line-title">VLC — SPAIN</div>
+        <div className="line"></div>
         </Col>
       </Row>
     

@@ -1,11 +1,12 @@
+
 #root {
   margin: 0;
   padding: 0;
-  text-align: center;
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: "Roboto";
 }
+
 
 @font-face {
   font-family: "Roboto";
